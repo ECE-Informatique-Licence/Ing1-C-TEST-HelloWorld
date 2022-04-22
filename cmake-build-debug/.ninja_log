@@ -1,8 +1,7 @@
 # ninja log v5
-1	81	6722670388271224	CMakeFiles/testHelloWorld.dir/main.c.obj	86bd698ff9506b02
-1	196	6722675631729681	build.ninja	77d1990f87110633
-2	100	6722673823909586	testHelloWorld.exe	16a45b551930b0f
-2	68	6722672750922613	CMakeFiles/testHelloWorld.dir/hello.c.obj	14818ac25ad2a127
-1	213	6722675631729681	build.ninja	77d1990f87110633
-0	77	6722677429814756	CMakeFiles/testHelloWorld2.dir/hello.c.obj	35f934df1b3858ce
 77	198	6722677431004716	testHelloWorld2.exe	4d6a5a9bc0d55960
+0	77	6722677429814756	CMakeFiles/testHelloWorld2.dir/hello.c.obj	35f934df1b3858ce
+1	216	6723417200581215	build.ninja	77d1990f87110633
+1	207	6723415216061985	CMakeFiles/testHelloWorld.dir/main.c.obj	86bd698ff9506b02
+207	459	6723415218561957	testHelloWorld.exe	16a45b551930b0f
+2	68	6722672750922613	CMakeFiles/testHelloWorld.dir/hello.c.obj	14818ac25ad2a127

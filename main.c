@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-void afficherNom(char* nom){
-    printf("Hello %s", nom);
-}
-
 int main() {
-    printf("Hello Quentin\n");
+
+    printf("Hello world !\n");
+
     return 0;
 }
 

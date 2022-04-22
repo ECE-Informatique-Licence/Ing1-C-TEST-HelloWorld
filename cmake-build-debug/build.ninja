@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: testHelloWorld2
+# Project: testHelloWorld
 # Configurations: Debug
 # =============================================================================
 
@@ -73,39 +73,6 @@ build testHelloWorld.exe: C_EXECUTABLE_LINKER__testHelloWorld_Debug CMakeFiles/t
   TARGET_IMPLIB = libtestHelloWorld.dll.a
   TARGET_PDB = testHelloWorld.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target testHelloWorld2
-
-
-#############################################
-# Order-only phony target for testHelloWorld2
-
-build cmake_object_order_depends_target_testHelloWorld2: phony || CMakeFiles/testHelloWorld2.dir
-
-build CMakeFiles/testHelloWorld2.dir/hello.c.obj: C_COMPILER__testHelloWorld2_Debug C$:/Users/ququq/Desktop/githublocal/Ing1-C-TEST-HelloWorld/hello.c || cmake_object_order_depends_target_testHelloWorld2
-  DEP_FILE = CMakeFiles\testHelloWorld2.dir\hello.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\testHelloWorld2.dir
-  OBJECT_FILE_DIR = CMakeFiles\testHelloWorld2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target testHelloWorld2
-
-
-#############################################
-# Link the executable testHelloWorld2.exe
-
-build testHelloWorld2.exe: C_EXECUTABLE_LINKER__testHelloWorld2_Debug CMakeFiles/testHelloWorld2.dir/hello.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\testHelloWorld2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = testHelloWorld2.exe
-  TARGET_IMPLIB = libtestHelloWorld2.dll.a
-  TARGET_PDB = testHelloWorld2.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -134,8 +101,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build testHelloWorld: phony testHelloWorld.exe
 
-build testHelloWorld2: phony testHelloWorld2.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +109,7 @@ build testHelloWorld2: phony testHelloWorld2.exe
 #############################################
 # Folder: C:/Users/ququq/Desktop/githublocal/Ing1-C-TEST-HelloWorld/cmake-build-debug
 
-build all: phony testHelloWorld.exe testHelloWorld2.exe
+build all: phony testHelloWorld.exe
 
 # =============================================================================
 # Built-in targets
