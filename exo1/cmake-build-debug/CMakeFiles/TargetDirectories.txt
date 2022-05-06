@@ -1,0 +1,3 @@
+C:/Users/ququq/Desktop/githublocal/Ing1-C-TEST-HelloWorld/exo1/cmake-build-debug/CMakeFiles/exo1.dir
+C:/Users/ququq/Desktop/githublocal/Ing1-C-TEST-HelloWorld/exo1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ququq/Desktop/githublocal/Ing1-C-TEST-HelloWorld/exo1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

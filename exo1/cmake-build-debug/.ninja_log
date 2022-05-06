@@ -1,0 +1,5 @@
+# ninja log v5
+0	112	6735515989918066	CMakeFiles/testHelloWorld.dir/main.c.obj	df5ebc79d2c08798
+0	123	6735518108170054	CMakeFiles/exo1.dir/main.c.obj	3a9eb6ece8cd1b2a
+113	232	6735515991078321	testHelloWorld.exe	16a45b551930b0f
+124	255	6735518109460335	exo1.exe	d81a4faafeb3e0ee
