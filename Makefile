@@ -1,5 +1,5 @@
 a.out:
-	gcc main.c
+	gcc exo1/main.c
 
 clean:
 	rm main
